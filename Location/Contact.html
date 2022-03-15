@@ -5,8 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        a{
+            padding: 8px;
+            color: #f2f3f0;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: #6d8097;
+            color: black;  
+        }
+        body {
+            background-color: #58687c;
+        }
+    </style>
+   
 </head>
 <body>
-    
+    <h1>Contact Me </h1>
+    <form
+ action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+ method="post"
+>
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" email="email"><br>
+ <br><p>Check the box that applies to you </p>
+
+    <input type="checkbox" id="question1" name="question1" value="Patent">
+    <label for="question1"> </label><br>
+    <input type="checkbox" id="question2" name="question2" value="patent2">
+    <label for="question 2"> </label><br>
+    <input type="checkbox" id="question 3" name="question3" value="patent3">
+    <label for="question3"> </label><br><br>
+ 
+ <br><p>Select one of the options that best suit you </p>
+    <input type="radio" id="call" name="fav_language" value="call">
+    <label for="call"></label><br>
+    <input type="radio" id="message" name="fav_language" value="message">
+    <label for="message"></label><br>
+    <input type="radio" id="inperson" name="fav_language" value="inperson">
+    <label for="inperson"> </label><br>
+    <input type="submit" value="Submit">
+  </form>
+
 </body>
 </html>
