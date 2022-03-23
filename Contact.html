@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Black Lives Matter: Community Response to Racially Disproprtionate Police brutality</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         a{
             padding: 8px;
-            color: #f2f3f0;
+            color: #f6f7f5;
             text-decoration: none;
         }
         a:hover{
-            background-color: #6d8097;
+            background-color: #8793a1;
             color: black;  
         }
         body {
-            background-color: #58687c;
+            background-color: #577b85;
         }
     </style>
-   
+   <a href="Home.html" target="_parent">Home</a>
+   <a href="About.html" target="_parent">About</a>
+   <a href="Contact.html" target="_parent">Contact</a>
+   <a href="Source.html" target="_parent">Source</a>
 </head>
 <body>
     <h1>Contact Me </h1>
@@ -29,6 +32,7 @@
  method="post"
 >
 <form action="/action_page.php">
+    <input name="send-to" value="apaul2@brooklynsteamcenter.org" hidden>
     <label for="fname">First name:</label><br>
     <input type="text" id="fname" name="fname"><br>
     <label for="lname">Last name:</label><br>
@@ -37,20 +41,16 @@
     <input type="text" id="email" email="email"><br>
  <br><p>Check the box that applies to you </p>
 
-    <input type="checkbox" id="question1" name="question1" value="Patent">
-    <label for="question1"> </label><br>
-    <input type="checkbox" id="question2" name="question2" value="patent2">
-    <label for="question 2"> </label><br>
-    <input type="checkbox" id="question 3" name="question3" value="patent3">
-    <label for="question3"> </label><br><br>
- 
+    <input type="checkbox" id="question" name="question1" value="Patent">
+    <label for="question">Do you feel comfortable talking with the police?</label><br>
+    
  <br><p>Select one of the options that best suit you </p>
     <input type="radio" id="call" name="fav_language" value="call">
-    <label for="call"></label><br>
+    <label for="call">maybe</label><br>
     <input type="radio" id="message" name="fav_language" value="message">
-    <label for="message"></label><br>
+    <label for="message">no</label><br>
     <input type="radio" id="inperson" name="fav_language" value="inperson">
-    <label for="inperson"> </label><br>
+    <label for="inperson">yes</label><br>
     <input type="submit" value="Submit">
   </form>
 

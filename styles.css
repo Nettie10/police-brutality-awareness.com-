@@ -9,7 +9,6 @@ h1, h2, h3 {
      background-color: #232946;
 }
 
-
 input[type=submit] {
 
 background-color:green;
@@ -24,4 +23,17 @@ input[type=text] {
 background-color: pink;
 padding: 5px;
 border-radius: 8px;
+}
+
+p.center {
+    text-align: center;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+     font-size: medium; 
+  }
+  
 }
